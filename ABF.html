@@ -20,6 +20,13 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <script>
+      $(function () {
+        $(".carousel").carousel({
+          interval: 2000,
+        });
+      });
+    </script> -->
   </head>
   <body>
     <div class="strip"></div>
@@ -102,6 +109,73 @@
     </header>
 
     <!-- end of navigation bar -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li
+          data-target="carouselExampleControls"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="carouselExampleControls"></li>
+      </ol>
+
+      <!-- indicators complete -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="2000">
+          <img
+            src="ABF images/dell-pduutGbL2-M-unsplash (1).jpg"
+            class="d-block w-100"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Austrailian Blind Factory</h2>
+            <button type="button" class="btn btn-trasparent">Learn more</button>
+          </div>
+
+          <!-- cation on slider -->
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img
+            src="ABF images/dell-1gLdTsX3_70-unsplash.jpg"
+            class="d-block w-100"
+            alt="Second slide"
+          />
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h2>Welcome to Austrailian Blind Factory</h2>
+
+            <button type="button" class="btn btn-transparent">
+              Learn more
+            </button>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- HERO -->
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
