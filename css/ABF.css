@@ -48,7 +48,37 @@ a:hover {
 
 /* HERO SECTION */
 .carousel-inner h2 {
-  margin-bottom: 35%;
+  /* margin-bottom: 35%; */
   font-weight: bold;
   font-size: 2.5rem;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.btn {
+  margin-bottom: 19rem;
+}
+.custom {
+  width: 200px !important;
+}
+.btn-transparent:hover {
+  background: var(--color-body) !important;
+}
+.card-deck {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.card-deck .card:hover {
+  background-color: var(--color-body);
+  color: white;
+}
+.card-text {
+  font-weight: bold;
 }
