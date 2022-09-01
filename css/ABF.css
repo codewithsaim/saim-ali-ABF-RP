@@ -75,7 +75,7 @@ a:hover {
 /* margin line gold */
 .line {
   margin-bottom: 4rem;
-  border-bottom: 2px solid var(--color-body);
+  border-bottom: 4px solid var(--color-body);
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -98,6 +98,7 @@ a:hover {
 }
 .card-title {
   text-align: center;
+  font-weight: bold;
 }
-.card-img-top {
-}
+
+/* colored bar section */
