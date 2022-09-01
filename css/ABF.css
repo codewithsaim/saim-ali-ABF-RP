@@ -62,15 +62,25 @@ a:hover {
   right: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+/* button for learn more */
 .btn {
   margin-bottom: 19rem;
+  color: #fff;
 }
 .custom {
   width: 200px !important;
+  border: 1px solid #fff !important;
 }
-.btn-transparent:hover {
-  background: var(--color-body) !important;
+/* margin line gold */
+.line {
+  margin-bottom: 4rem;
+  border-bottom: 2px solid var(--color-body);
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
+/* card section */
 .card-deck {
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -81,4 +91,13 @@ a:hover {
 }
 .card-text {
   font-weight: bold;
+}
+.cards-groups {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.card-title {
+  text-align: center;
+}
+.card-img-top {
 }
