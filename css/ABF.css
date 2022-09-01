@@ -16,8 +16,7 @@
 }
 html,
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 
   line-height: 1.5;
   box-sizing: border-box;
@@ -82,23 +81,50 @@ a:hover {
 
 /* card section */
 .card-deck {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.card-deck .card:hover {
+.card:hover {
   background-color: var(--color-body);
   color: white;
+  cursor: pointer;
 }
-.card-text {
+
+/* 6 box with icons */
+.p-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--color-heading);
+}
+.icon-box {
+  cursor: pointer;
+}
+.icon-box-text {
   font-weight: bold;
 }
-.cards-groups {
-  margin-top: 6rem;
-  margin-bottom: 5rem;
-}
-.card-title {
-  text-align: center;
+.box-text {
   font-weight: bold;
 }
 
-/* colored bar section */
+.box-groups {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.box-title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.box-title:hover {
+  color: var(--color-body);
+}
+
+/* colored bar(--------------------------) section */
+.Crsm {
+  border-bottom: 4rem solid var(--color-heading);
+  margin-bottom: 4rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
