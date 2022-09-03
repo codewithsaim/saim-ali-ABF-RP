@@ -32,7 +32,7 @@ a {
   font-weight: 500;
 }
 
-/* ----------navigation classes-------------- */
+/* ----------navigation classes-------------- 1*/
 #navbarSupportedContent {
   margin-right: 8rem;
 }
@@ -47,7 +47,7 @@ a:hover {
   line-height: 1px;
 }
 
-/*-------------- Content on images section------------- */
+/*-------------- Content on images section------------- 2*/
 .wcl {
   position: absolute;
 
@@ -82,7 +82,7 @@ a:hover {
   vertical-align: middle;
 }
 
-/* ----------------margin line gold----------------- */
+/* ----------------margin line gold----------------- 3*/
 .line {
   margin-bottom: 4rem;
   border-bottom: 4px solid var(--color-body);
@@ -110,7 +110,7 @@ a:hover {
   margin-bottom: 5rem;
 }
 
-/*---------------- 6 box with icons------------------------------ */
+/*---------------- 6 box with icons------------------------------ 4*/
 .p-heading {
   text-align: center;
   margin-bottom: 2rem;
@@ -142,7 +142,7 @@ a:hover {
   background-color: transparent !important;
 }
 
-/* colored bar(--------------------------) section */
+/* colored bar(--------------------------) section 5 */
 .Crsm {
   border-bottom: 2rem solid var(--color-heading);
   margin-bottom: 4rem;
@@ -156,7 +156,7 @@ a:hover {
   font-weight: bold;
 }
 
-/* ------------small slider css ---------------------------------*/
+/* ------------small slider css --------------------------------- 6*/
 .cardss-title {
   text-align: center;
   cursor: pointer;
@@ -175,7 +175,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* aus section work */
+/*---------- aus section work---  7*/
 #choose {
   margin: 2em 0;
 
@@ -194,14 +194,14 @@ a:hover {
   border-radius: 0.25rem;
 }
 
-/* forms section */
+/* forms section -------8*/
 #contact-us {
   text-align: center;
   padding: 3em 0;
   color: var(--color-heading);
 }
 
-/* footer section */
+/* footer section ----------9 */
 #footer {
   background: #333333;
   padding-top: 6em;

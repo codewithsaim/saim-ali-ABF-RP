@@ -1,0 +1,28 @@
+<!--   content and image welcome to aus blind factory - 2 -->
+
+<div class="carousel-inner">
+  <div class="immg-hm active" data-interval="2000"></div>
+  <img
+    src="ABF images/imgimp.jpg"
+    class="d-block w-100 slide"
+    alt="First slide"
+  />
+  <div class="container">
+    <div
+      class="carousel-caption d-sm-block d-flex h-100 align-items-center justify-content-center"
+    >
+      <h2 class="wcl mb-sm-1 mt-sm-3">
+        Welcome to <br />Austrailian Blind Factory
+      </h2>
+
+      <button
+        type="button"
+        class="btn p-1 mt-xs-4 mt-lg-5 custom-btn"
+        and
+        style="background-color: transparent"
+      >
+        Learn more
+      </button>
+    </div>
+  </div>
+</div>
