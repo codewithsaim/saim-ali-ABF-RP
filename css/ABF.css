@@ -33,9 +33,9 @@ a {
 }
 
 /* ----------navigation classes-------------- 1*/
-#navbarSupportedContent {
+/* #navbarSupportedContent {
   margin-right: 8rem;
-}
+} */
 
 a:hover {
   color: var(--color-body) !important;
@@ -58,6 +58,30 @@ a:hover {
   transform: translate(-50%, -50%);
   font-weight: bold;
   font-size: 2.5rem;
+}
+@media (min-width: 400px) {
+  h2.wcl {
+    font-size: 1.5rem;
+  }
+  .wcl {
+    top: 60%;
+  }
+}
+
+@media (min-width: 546px) {
+  h2.wcl {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  h2.wcl {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  h2.wcl {
+    font-size: 3rem;
+  }
 }
 
 .carousel-caption {
@@ -119,6 +143,17 @@ a:hover {
 }
 .icon-box {
   cursor: pointer;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.5s box-shadow,
+    0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+.icon-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  opacity: 0.85;
 }
 .icon-box-text {
   font-weight: bold;
@@ -138,8 +173,14 @@ a:hover {
   color: var(--color-body);
 }
 
-.yrlogo img {
-  background-color: transparent !important;
+.bi-award {
+  /* background-color: transparent !important; */
+  width: 55px;
+  height: 62px;
+  color: #daa520;
+}
+.card-img-top {
+  box-shadow: 5px 5px 5px 5px #aeadad;
 }
 
 /* colored bar(--------------------------) section 5 */
@@ -164,6 +205,9 @@ a:hover {
   color: #333333;
   font-weight: bold;
 }
+.cardss-title:hover {
+  color: var(--color-body);
+}
 
 .carousel-inner {
   margin-top: 0;
@@ -182,14 +226,20 @@ a:hover {
   cursor: pointer;
   color: var(--color-heading);
 }
+.aus-bold {
+  font-weight: bold;
+}
+.wc-bold {
+  font-weight: bold;
+}
 .btn-custom {
   background: #daa520;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   margin-top: 15px;
   display: inline-block;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.3rem;
   font-size: 1rem;
   border-radius: 0.25rem;
 }
@@ -199,6 +249,9 @@ a:hover {
   text-align: center;
   padding: 3em 0;
   color: var(--color-heading);
+}
+.contact-heading {
+  font-weight: bold;
 }
 
 /* footer section ----------9 */
@@ -212,4 +265,13 @@ a:hover {
 }
 .widget-title {
   color: #fff;
+  font-weight: bold;
+}
+.footer-wcon {
+  /* margin-left: 7rem; */
+}
+@media (min-width: 775px) {
+  .footer-wcon {
+    margin-left: 7rem;
+  }
 }
